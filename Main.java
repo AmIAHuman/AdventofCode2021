@@ -15,7 +15,7 @@ public class Main {
   }
   public class Day1 {
     public int Part1(){
-      int index = 0 ,num1 = -1, num2 = -1, counter = 0;
+      int index = 0, num1 = -1, num2 = -1, counter = 0;
       try {
         Scanner scanner = new Scanner(new File("day1.in.txt"));
         while (scanner.hasNextLine()) {
