@@ -2,16 +2,14 @@
 ```
 AdventofCode2021
 ├── Day 1/
-│   ├── Part1.java
-│   └── Part2.java
+│   └── Day1.java
 ├── Day 2/
-│   ├── Part1.java
-│   └── Part2.java
+│   └── Day2.java
+├── Day 3/
+│   └── Day3.java
+├── .gitignore
 ├── LICENSE
-├── Main.java
 ├── README.md
 └── Template.java
 ```
-**Main.java** - all days and parts in one file\
 **Template.java** - template java file for each day/part
-
