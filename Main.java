@@ -44,10 +44,8 @@ public class Main {
           if(index == 0){
             num1 = Integer.parseInt(line);
             try {
-              Scanner sc = new Scanner(new File("day1.in.txt"));
-              sc.nextLine();
-              num2 = Integer.parseInt(sc.nextLine());
-              num3 = Integer.parseInt(sc.nextLine());
+              num2 = Integer.parseInt(scanner.nextLine());
+              num3 = Integer.parseInt(scanner.nextLine());
             } catch(Exception e){}
             index++;
             sum1 = num1 + num2 + num3;
@@ -61,6 +59,7 @@ public class Main {
               counter++;
             }
             sum1 = sum2;
+            index++;
           }
         }
       } catch(Exception e){}
