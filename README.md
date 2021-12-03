@@ -10,8 +10,8 @@ AdventofCode2021
 ├── LICENSE
 ├── Main.java
 ├── README.md
-└── template.java
+└── Template.java
 ```
 **Main.java** - all days and parts in one file\
-**template.java** - template java file for each day/part
+**Template.java** - template java file for each day/part
 
