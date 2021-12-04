@@ -7,9 +7,11 @@ AdventofCode2021
 │   └── Day2.java
 ├── Day 3
 │   └── Day3.java
+├── Day 4
+│   └── Day4.java
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 └── Template.java
 ```
-**Template.java** - template java file for each day/part
+**Template.java** - template java file for each day
