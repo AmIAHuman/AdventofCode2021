@@ -60,6 +60,6 @@ def Part2():
 
 
 if __name__ == "__main__":
-  dayInput = pathlib.Path("input.txt").read_text().split("\n")
+  dayInput = pathlib.Path("input.txt").read_text().split("\n")[:-1]
   print("Part 1 answer: " + str(Part1()))
   print("Part 2 answer: " + str(Part2()))
