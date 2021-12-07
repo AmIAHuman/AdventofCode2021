@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.stream.Stream;
-import java.util.Arrays;
 import java.io.File;
 
 public class Day5 {
