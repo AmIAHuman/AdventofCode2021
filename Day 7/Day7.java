@@ -19,7 +19,7 @@ public class Day7 {
       crabs = Stream.of(scanner.nextLine().split(",")).mapToInt(Integer::parseInt).toArray();
     } catch(Exception e){}
     max = Arrays.stream(crabs).max().getAsInt();
-    for (int fuel = 0; fuel <= crabs.length; fuel++) {
+    for (int fuel = 0; fuel <= max; fuel++) {
       fuels.add(alignSum(crabs, fuel));
     }
     return Collections.min(fuels);
@@ -40,7 +40,7 @@ public class Day7 {
       crabs = Stream.of(scanner.nextLine().split(",")).mapToInt(Integer::parseInt).toArray();
     } catch(Exception e){}
     max = Arrays.stream(crabs).max().getAsInt();
-    for (int fuel = 0; fuel <= crabs.length; fuel++) {
+    for (int fuel = 0; fuel <= max; fuel++) {
       fuels.add(alignIncreasingSum(crabs, fuel));
     }
     return Collections.min(fuels);

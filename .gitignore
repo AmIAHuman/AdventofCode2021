@@ -2,6 +2,8 @@ day*.in.txt
 */day*.in.txt
 */test.txt
 .DS_Store
+*.compiled
+*/*.compiled
 
 # Compiled class file
 *.class
@@ -165,3 +167,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+.vscode/settings.json
